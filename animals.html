@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Include Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/animals.css">
+  <title>Zoológico de Guarulhos</title>
+  <link rel="shortcut icon" href="assets/img/logos/img_brasao.png" type="image/x-icon">
+</head>
+
+<body style="background-color: #fbfefb;" id="content">
+
+  <!--   
+    <div class="full-img" id="fullImgBox">
+    <img src="" id="full-img">
+    <span onclick="closeFullImg()">X</span>
+  </div> 
+  -->
+
+  <!-- Start Site NavBar -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="nav-bar" style="background-color: #f8f9fa;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html"><img src="assets/img/logos/logo.png" alt="Logo Zoológico de Guarulhos"
+          srcset="assets/img/logos/logo.png" width="170rem" height="60rem"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/index.html">Início |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/adopting.html">Adoção |</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active" href="/animals.html">Animais |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/questions.html">Perguntas Frequentes |</a>
+          </li>
+          <li>
+            <a class="nav-link" href="/go.html">Como Chegar |</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Site NavBar -->
+
+  <div class="container-fluid">
+    <main>
+      <h1>Animais</h1>
+      <p style="margin-top: 1rem;">Cerca de 400 animais, de 100 diferentes espécies!!</p>
+
+      <div class="container-fluid" id="content">
+        <h2>Aves</h2>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/araracanindé.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Arara Canindé</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/araravermelha.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Arara Vermelha</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/carcara.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Carcará</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/maitaca.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Maitaca</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/papagaioverdadeiro.jpg" class="card-img" alt="..."
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Papagaio Verdadeiro</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/periquitao-maracana.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Periquitão</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/urubu-rei.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Urubu Rei</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/cisnenegro.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cisne Negro</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/ganso.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Ganso</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/gaviaocarijo.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Gavião Carijó</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/gaviaocarrapateiro.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Gavião Carrapateiro</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/gaviaopernilongo.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Gavião Pernilongo</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/grauna.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Graúna</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/irere.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Irerê</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/mocho.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Mocho Orelhudo</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/mutum.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Mutum do Sudeste</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/papgaiodopeitoroxo.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Papagaio do Peito Roxo</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/picapau.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Pica-Pau Branco</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/suindra.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Suindra</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/tucano.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Tucano Toco</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/aves/urubucomun.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Urubu Comum</h5>
+            </div>
+          </div>
+        </div>
+
+        <h2>Mamíferos</h2>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/furao.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Furão</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/leao.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Leão</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/macacobarrigudo.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Macaco Barrigudo</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/saua.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Sauá</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/anta.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Anta</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/veado.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Veado</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/bugio.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Bugio</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/capivara.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Capivara</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/cateto.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cateto</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/ema.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Ema</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/gatodomato.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Gato do Mato</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/loboguara.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Lobo Guará</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/lontra.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Lontra</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/micoleaodourado.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Mico Leão Dourado</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/oncaparda.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Onça Parda</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/oncapintada.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Onça Pintada</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/quati.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Quati</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/sagui.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Sagui</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/mamiferos/tamanduabandeira.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Tamanduá bandeira</h5>
+            </div>
+          </div>
+        </div>
+
+        <h2>Répiteis</h2>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/repteis/cagado.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cagado</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/repteis/iguana.jpg" class="card-img" alt="..." >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Iguana</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/repteis/jabuti.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Jabuti</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/repteis/jacare.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Jacaré</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/repteis/tartaruga.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Tartaruga</h5>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/repteis/teiu.jpg" class="card-img" alt="..." 
+            >
+            <div class="card-img-overlay">
+              <h5 class="card-title">Teiu</h5>
+            </div>
+          </div>
+        </div>
+
+        <h2>Educação Ambiental</h2>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade1.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade1.jpg" download="atividade1"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade2.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade2.jpg" download="atividade2"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade3.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade3.jpg" download="atividade3"><button>Download</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade4.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade4.jpg" download="atividade4"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade5.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade5.jpg" download="atividade5"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade6.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade6.jpg" download="atividade6"><button>Download</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade7.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade7.jpg" download="atividade7"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade8.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade8.jpg" download="atividade8"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/atividade9.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/atividade9.jpg" download="atividade9"><button>Download</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho1.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho1.jpg" download="desenho"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho2.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho2.jpg" download="desenho2"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho3.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho3.jpg" download="desenho3"><button>Download</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho4.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho4.jpg" download="desenho4"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho5.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho5.jpg" download="desenho5"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho6.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho6.jpg" download="desenho6"><button>Download</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho7.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho7.jpg" download="desenho7"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho8.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho8.jpg" download="desenho8"><button>Download</button></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark col-4">
+            <img src="assets/img/educacao-ambiental/desenho9.jpg" class="card-img" alt="..."
+              >
+            <div class="card-img-overlay">
+              <a href="assets/img/educacao-ambiental/desenho9.jpg" download="desenho9"><button>Download</button></a>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho10.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho10.jpg" download="desenho10"><button>Download</button></a>
+              </div>
+            </div>
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho11.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho11.jpg" download="desenho11"><button>Download</button></a>
+              </div>
+            </div>
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho12.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho12.jpg" download="desenho12"><button>Download</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho13.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho13.jpg" download="desenho13"><button>Download</button></a>
+              </div>
+            </div>
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho14.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho14.jpg" download="desenho14"><button>Download</button></a>
+              </div>
+            </div>
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho15.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho15.jpg" download="desenho15"><button>Download</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho16.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho16.jpg" download="desenho16"><button>Download</button></a>
+              </div>
+            </div>
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho17.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho17.jpg" download="desenho17"><button>Download</button></a>
+              </div>
+            </div>
+            <div class="card text-bg-dark col-4">
+              <img src="assets/img/educacao-ambiental/desenho18.jpg" class="card-img" alt="..."
+                >
+              <div class="card-img-overlay">
+                <a href="assets/img/educacao-ambiental/desenho18.jpg" download="desenho18"><button>Download</button></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/fullImg.js"></script>
+</body>
+
+</html>

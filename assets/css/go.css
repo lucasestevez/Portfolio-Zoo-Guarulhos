@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#nav-bar {
+    border-bottom: 4px solid var(--color-black);
+    box-shadow:  0 4px 8px 0 rgba(161, 160, 160, 0.2), 0 6px 4px 0 rgba(143, 143, 143, 0.19);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+h1, .content {
+    margin-top: 6rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+    font-weight: 300;
+    margin-left: 4rem;
+}
+
+.label {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.info {
+    font-weight: 700;
+}
+
+.content-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+button {
+    border-radius: 1rem;
+    border: 2px solid #0d0d0d;
+}
+
+#instagram {
+    background-color: rgba(160, 3, 76, 0.534);
+}
+
+#facebook {
+    background-color: rgba(6, 6, 187, 0.61);
+}
